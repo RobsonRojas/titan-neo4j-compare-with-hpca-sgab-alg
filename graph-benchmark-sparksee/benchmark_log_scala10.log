@@ -1,0 +1,13 @@
+May 18, 2015 7:54:08 PM edu.ufam.engcomp.graph.benchmark.Main run
+INFO: graph init keys
+May 18, 2015 7:54:08 PM edu.ufam.engcomp.graph.benchmark.Main run
+INFO: graph cleaning
+May 18, 2015 7:54:08 PM edu.ufam.engcomp.graph.benchmark.Main run
+INFO: Starting Kernel1 loading execution
+May 18, 2015 7:54:10 PM edu.ufam.engcomp.graph.benchmark.Main run
+INFO: Kernel1 executed in 2,046ms. 8,196 edges and 8,196 nodes loaded.
+May 18, 2015 7:54:27 PM edu.ufam.engcomp.graph.benchmark.Main run
+INFO: Kernel2 executed in 6,395ms
+1,024 is max weight.
+6,864 edges with max weight.
+0 unique nodes.

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="graph-benchmark-Neo4j-2.1">
+  <ClassDiagramComponents>
+    <Class name="Neo4j" package="neo4j" visibility="public" xPosition="700.0" yPosition="1374.0">
+      <Fields>
+        <Field name="log" type="Logger" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="countNodes" type="int" visibility="private"/>
+        <Field name="graph" type="Neo4jGraph" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Logger" name="fileLog"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="conectarRemote" returnType="boolean" visibility="public">
+          <Argument type="String" name="uri"/>
+        </Method>
+        <Method name="conectarLocal" returnType="boolean" visibility="public">
+          <Argument type="String" name="localConnectionString"/>
+        </Method>
+        <Method name="InitKeys" returnType="void" visibility="public"/>
+        <Method name="createEdge" returnType="boolean" visibility="public">
+          <Argument type="long" name="src"/>
+          <Argument type="long" name="tar"/>
+          <Argument type="long" name="weight"/>
+        </Method>
+        <Method name="commit" returnType="void" visibility="public"/>
+        <Method name="desconectar" returnType="void" visibility="public"/>
+        <Method name="getNodesCreated" returnType="int" visibility="public"/>
+        <Method name="getAllVertices" returnType="Iterator&lt;Vertex&gt;" visibility="public"/>
+        <Method name="rollback" returnType="void" visibility="public"/>
+        <Method name="getEdgeById" returnType="Edge" visibility="public">
+          <Argument type="Object" name="id"/>
+        </Method>
+        <Method name="getSingleNode" returnType="Vertex" visibility="public">
+          <Argument type="String" name="ID_NODE"/>
+          <Argument type="long" name="nextInt"/>
+        </Method>
+        <Method name="clean" returnType="void" visibility="public"/>
+        <Method name="getNodeById" returnType="Vertex" visibility="public">
+          <Argument type="Object" name="id"/>
+        </Method>
+        <Method name="checkKeys" returnType="boolean" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Titan" package="titan" visibility="public" xPosition="1128.0" yPosition="1374.0">
+      <Fields>
+        <Field name="log" type="Logger" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="countNodes" type="int" visibility="private"/>
+        <Field name="graph" type="TitanGraph" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Logger" name="fileLog"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="conectarRemote" returnType="boolean" visibility="public">
+          <Argument type="String" name="ip"/>
+        </Method>
+        <Method name="conectarLocal" returnType="boolean" visibility="public">
+          <Argument type="String" name="localConnectionString"/>
+        </Method>
+        <Method name="InitKeys" returnType="void" visibility="public"/>
+        <Method name="createEdge" returnType="boolean" visibility="public">
+          <Argument type="long" name="src"/>
+          <Argument type="long" name="tar"/>
+          <Argument type="long" name="weight"/>
+        </Method>
+        <Method name="commit" returnType="void" visibility="public"/>
+        <Method name="desconectar" returnType="void" visibility="public"/>
+        <Method name="getNodesCreated" returnType="int" visibility="public"/>
+        <Method name="getAllVertices" returnType="Iterator&lt;Vertex&gt;" visibility="public"/>
+        <Method name="rollback" returnType="void" visibility="public"/>
+        <Method name="getEdgeById" returnType="Edge" visibility="public">
+          <Argument type="Object" name="id"/>
+        </Method>
+        <Method name="getNodeById" returnType="Vertex" visibility="public">
+          <Argument type="Object" name="id"/>
+        </Method>
+        <Method name="getSingleNode" returnType="Vertex" visibility="public">
+          <Argument type="String" name="ID_NODE"/>
+          <Argument type="long" name="nextInt"/>
+        </Method>
+        <Method name="clean" returnType="void" visibility="public"/>
+        <Method name="checkKeys" returnType="boolean" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Kernel2" package="edu.ufam.engcomp.graph.benchmark" visibility="public" xPosition="864.0" yPosition="465.0">
+      <Fields>
+        <Field name="OPT_HELP" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="OPT_IMAGE" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="ATTR_WEIGHT" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="ATTR_ID_NODE" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="log" type="Logger" visibility="private"/>
+        <Field name="result" type="List&lt;Object&gt;" visibility="private"/>
+        <Field name="maxWeight" type="long" visibility="private"/>
+        <Field name="nbNodes" type="long" visibility="private"/>
+        <Field name="edgeList" type="String" visibility="private"/>
+        <Field name="time" type="long" visibility="private"/>
+        <Field name="graphDb" type="IBechmarkGraph" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="IBechmarkGraph" name="gdb"/>
+          <Argument type="Logger" name="log"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="execute" returnType="void" visibility="public"/>
+        <Method name="getResult" returnType="Object[]" visibility="public"/>
+        <Method name="getMaxWeight" returnType="long" visibility="public"/>
+        <Method name="getNodesCount" returnType="long" visibility="public"/>
+        <Method name="getEdgeList" returnType="String" visibility="public"/>
+        <Method name="getTime" returnType="long" visibility="public"/>
+        <Method name="close" returnType="void" visibility="public"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Kernel3" package="edu.ufam.engcomp.graph.benchmark" visibility="public" xPosition="1190.0" yPosition="482.0">
+      <Fields>
+        <Field name="OPT_HELP" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="OPT_IMAGE" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="OPT_PATH_LENGTH" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="ATTR_WEIGHT" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="ATTR_ID_NODE" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="log" type="Logger" visibility="private"/>
+        <Field name="graphDb" type="IBechmarkGraph" visibility="private"/>
+        <Field name="largeEdges" type="Object[]" visibility="private"/>
+        <Field name="time" type="long" visibility="private"/>
+        <Field name="subGraphPathLenght" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="IBechmarkGraph" name="gDB"/>
+          <Argument type="Logger" name="log"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="execute" returnType="void" visibility="public"/>
+        <Method name="bfsQueue" returnType="void" visibility="private">
+          <Argument type="Object" name="id"/>
+        </Method>
+        <Method name="setEdges" returnType="void" visibility="public">
+          <Argument type="Object[]" name="largeEdges"/>
+        </Method>
+        <Method name="setSubGraphPathLenght" returnType="void" visibility="public">
+          <Argument type="int" name="optionInt"/>
+        </Method>
+        <Method name="getTime" returnType="long" visibility="public"/>
+        <Method name="close" returnType="void" visibility="public"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Kernel1" package="edu.ufam.engcomp.graph.benchmark" visibility="public" xPosition="353.0" yPosition="540.0">
+      <Fields>
+        <Field name="db_path" type="String" visibility="private"/>
+        <Field name="log" type="Logger" visibility="private"/>
+        <Field name="OPT_HELP" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="OPT_INPUT" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="OPT_SCALE" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="ATTR_WEIGHT" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="ATTR_ID_NODE" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="reader" type="CSVReader" visibility="private"/>
+        <Field name="graphDb" type="IBechmarkGraph" visibility="private"/>
+        <Field name="time" type="long" visibility="private"/>
+        <Field name="countEdges" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="inputFile"/>
+          <Argument type="IBechmarkGraph" name="gdb"/>
+          <Argument type="Logger" name="log"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="execute" returnType="boolean" visibility="public"/>
+        <Method name="load" returnType="void" visibility="public"/>
+        <Method name="close" returnType="void" visibility="public"/>
+        <Method name="getTime" returnType="long" visibility="public"/>
+        <Method name="getNodesCreated" returnType="long" visibility="public"/>
+        <Method name="getEdgesCreated" returnType="long" visibility="public"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+        <Method name="cleanVertexAndEdges" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Kernel4" package="edu.ufam.engcomp.graph.benchmark" visibility="public" xPosition="1633.0" yPosition="506.0">
+      <Fields>
+        <Field name="OPT_HELP" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="OPT_IMAGE" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="OPT_SAMPLE_FILE" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="OPT_SAMPLE_SIZE" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="ATTR_WEIGHT" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="ATTR_ID_NODE" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="graphDb" type="IBechmarkGraph" visibility="private"/>
+        <Field name="sample" type="File" visibility="private"/>
+        <Field name="time" type="long" visibility="private"/>
+        <Field name="sampleSize" type="int" visibility="private"/>
+        <Field name="log" type="Logger" visibility="private" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="IBechmarkGraph" name="gdb"/>
+          <Argument type="Logger" name="log"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="setSampleFile" returnType="void" visibility="package">
+          <Argument type="File" name="sample"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="setSampleSize" returnType="void" visibility="package">
+          <Argument type="int" name="optionInt"/>
+        </Method>
+        <Method name="getTime" returnType="long" visibility="package"/>
+        <Method name="execute" returnType="void" visibility="package"/>
+        <Method name="betweennessCentrality" returnType="void" visibility="private"/>
+        <Method name="close" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Main" package="edu.ufam.engcomp.graph.benchmark" visibility="public" xPosition="751.0" yPosition="15.0">
+      <Fields>
+        <Field name="k1" type="Kernel1" visibility="private"/>
+        <Field name="k2" type="Kernel2" visibility="private"/>
+        <Field name="k3" type="Kernel3" visibility="private"/>
+        <Field name="k4" type="Kernel4" visibility="private"/>
+        <Field name="log" type="Logger" visibility="private" isStatic="true" isFinal="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="run" returnType="void" visibility="private">
+          <Argument type="int" name="amstra"/>
+          <Argument type="int" name="escala"/>
+          <Argument type="boolean" name="blk1"/>
+          <Argument type="boolean" name="blk2"/>
+          <Argument type="boolean" name="blk3"/>
+          <Argument type="boolean" name="blk4"/>
+          <Argument type="int" name="numAmstrK4"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Interface name="IBechmarkGraph" package="edu.ufam.engcomp.graph.benchmark" visibility="public" xPosition="962.0" yPosition="989.0">
+      <Methods>
+        <Method name="conectarRemote" returnType="boolean" visibility="public">
+          <Argument type="String" name="ip"/>
+        </Method>
+        <Method name="conectarLocal" returnType="boolean" visibility="public">
+          <Argument type="String" name="localConnectionString"/>
+        </Method>
+        <Method name="createEdge" returnType="boolean" visibility="public">
+          <Argument type="long" name="src"/>
+          <Argument type="long" name="tar"/>
+          <Argument type="long" name="weight"/>
+        </Method>
+        <Method name="commit" returnType="void" visibility="public"/>
+        <Method name="desconectar" returnType="void" visibility="public"/>
+        <Method name="getNodesCreated" returnType="int" visibility="public"/>
+        <Method name="getAllVertices" returnType="Iterator&lt;Vertex&gt;" visibility="public"/>
+        <Method name="rollback" returnType="void" visibility="public"/>
+        <Method name="getEdgeById" returnType="Edge" visibility="public">
+          <Argument type="Object" name="id"/>
+        </Method>
+        <Method name="getNodeById" returnType="Vertex" visibility="public">
+          <Argument type="Object" name="id"/>
+        </Method>
+        <Method name="getSingleNode" returnType="Vertex" visibility="public">
+          <Argument type="String" name="ID_NODE"/>
+          <Argument type="long" name="nextInt"/>
+        </Method>
+        <Method name="clean" returnType="void" visibility="public"/>
+        <Method name="checkKeys" returnType="boolean" visibility="public"/>
+        <Method name="InitKeys" returnType="void" visibility="public"/>
+      </Methods>
+    </Interface>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="k1" source="edu.ufam.engcomp.graph.benchmark.Main" target="edu.ufam.engcomp.graph.benchmark.Kernel1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="graph" source="titan.Titan" target="titan.Titan" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="graphDb" source="edu.ufam.engcomp.graph.benchmark.Kernel3" target="edu.ufam.engcomp.graph.benchmark.IBechmarkGraph" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="titan.Titan" target="edu.ufam.engcomp.graph.benchmark.IBechmarkGraph"/>
+    <HasRelation name="graphDb" source="edu.ufam.engcomp.graph.benchmark.Kernel1" target="edu.ufam.engcomp.graph.benchmark.IBechmarkGraph" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="k4" source="edu.ufam.engcomp.graph.benchmark.Main" target="edu.ufam.engcomp.graph.benchmark.Kernel4" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="graphDb" source="edu.ufam.engcomp.graph.benchmark.Kernel2" target="edu.ufam.engcomp.graph.benchmark.IBechmarkGraph" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="k3" source="edu.ufam.engcomp.graph.benchmark.Main" target="edu.ufam.engcomp.graph.benchmark.Kernel3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="neo4j.Neo4j" target="edu.ufam.engcomp.graph.benchmark.IBechmarkGraph"/>
+    <HasRelation name="k2" source="edu.ufam.engcomp.graph.benchmark.Main" target="edu.ufam.engcomp.graph.benchmark.Kernel2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="graphDb" source="edu.ufam.engcomp.graph.benchmark.Kernel4" target="edu.ufam.engcomp.graph.benchmark.IBechmarkGraph" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="graph" source="neo4j.Neo4j" target="neo4j.Neo4j" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

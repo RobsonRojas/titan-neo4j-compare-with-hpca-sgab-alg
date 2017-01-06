@@ -1,0 +1,117 @@
+2015-05-14 19:55:26.526|SPARKSEE[INFO] ** START ** 2015-05-14 19:55:26.525 Software version: 5.1.0
+2015-05-14 19:55:26.526|SPARKSEE[INFO] No license code
+2015-05-14 19:55:27.666|SPARKSEE[INFO] GraphPool 'graph.dbg' has been created at /tmp/graph.dbg
+2015-05-14 19:55:46.521|SPARKSEE[INFO] ** START ** 2015-05-14 19:55:46.521 Software version: 5.1.0
+2015-05-14 19:55:46.521|SPARKSEE[INFO] No license code
+2015-05-14 19:55:46.522|GraphPool[SEVERE] Incompatible database version
+2015-05-14 19:55:46.769|GraphPool[INFO] Closed /tmp/graph.dbg
+2015-05-14 19:55:46.770|GraphPool[WARNING] Removed /tmp/graph.dbg.tmp
+2015-05-14 19:56:18.585|SPARKSEE[INFO] ** START ** 2015-05-14 19:56:18.584 Software version: 5.1.0
+2015-05-14 19:56:18.585|SPARKSEE[INFO] No license code
+2015-05-14 19:56:18.878|SPARKSEE[INFO] GraphPool 'graph.dbg' has been created at /tmp/graph.dbg
+2015-05-14 19:57:15.412|SPARKSEE[INFO] ** START ** 2015-05-14 19:57:15.412 Software version: 5.1.0
+2015-05-14 19:57:15.413|SPARKSEE[INFO] No license code
+2015-05-14 19:57:15.728|SPARKSEE[INFO] GraphPool 'graph.dbg' has been created at /tmp/graph.dbg
+2015-05-14 20:00:37.335|SPARKSEE[INFO] ** START ** 2015-05-14 20:00:37.335 Software version: 5.1.0
+2015-05-14 20:00:37.335|SPARKSEE[INFO] No license code
+2015-05-14 20:00:37.336|GraphPool[SEVERE] Incompatible database version
+2015-05-14 20:00:37.737|GraphPool[INFO] Closed /tmp/graph.dbg
+2015-05-14 20:00:37.738|GraphPool[WARNING] Removed /tmp/graph.dbg.tmp
+2015-05-14 20:00:49.782|SPARKSEE[INFO] ** START ** 2015-05-14 20:00:49.781 Software version: 5.1.0
+2015-05-14 20:00:49.782|SPARKSEE[INFO] No license code
+2015-05-14 20:00:49.892|SPARKSEE[INFO] GraphPool 'graph.dbg' has been created at /tmp/graph.dbg
+2015-05-14 20:01:33.540|SPARKSEE[INFO] ** START ** 2015-05-14 20:01:33.540 Software version: 5.1.0
+2015-05-14 20:01:33.540|SPARKSEE[INFO] No license code
+2015-05-14 20:01:33.541|GraphPool[SEVERE] Incompatible database version
+2015-05-14 20:01:33.742|GraphPool[INFO] Closed /tmp/graph.dbg
+2015-05-14 20:01:33.742|GraphPool[WARNING] Removed /tmp/graph.dbg.tmp
+2015-05-14 20:01:46.690|SPARKSEE[INFO] ** START ** 2015-05-14 20:01:46.690 Software version: 5.1.0
+2015-05-14 20:01:46.690|SPARKSEE[INFO] No license code
+2015-05-14 20:01:46.865|SPARKSEE[INFO] GraphPool 'graph.dbg' has been created at /tmp/graph.dbg
+2015-05-14 20:02:33.780|SPARKSEE[INFO] ** START ** 2015-05-14 20:02:33.780 Software version: 5.1.0
+2015-05-14 20:02:33.780|SPARKSEE[INFO] No license code
+2015-05-14 20:02:33.873|SPARKSEE[INFO] GraphPool 'graph.dbg' has been created at /tmp/graph.dbg
+2015-05-14 20:12:47.441|SPARKSEE[INFO] ** START ** 2015-05-14 20:12:47.441 Software version: 5.1.0
+2015-05-14 20:12:47.442|SPARKSEE[INFO] No license code
+2015-05-14 20:12:47.588|SPARKSEE[INFO] GraphPool 'test.gdb' has been created at /tmp/test.gdb
+2015-05-14 20:14:25.568|SPARKSEE[INFO] ** START ** 2015-05-14 20:14:25.568 Software version: 5.1.0
+2015-05-14 20:14:25.568|SPARKSEE[INFO] No license code
+2015-05-14 20:14:25.569|GraphPool[SEVERE] Incompatible database version
+2015-05-14 20:14:25.771|GraphPool[INFO] Closed /tmp/test.gdb
+2015-05-14 20:14:25.772|GraphPool[WARNING] Removed /tmp/test.gdb.tmp
+2015-05-14 20:17:27.588|SPARKSEE[INFO] ** START ** 2015-05-14 20:17:27.588 Software version: 5.1.0
+2015-05-14 20:17:27.588|SPARKSEE[INFO] No license code
+2015-05-14 20:17:27.588|GraphPool[SEVERE] Incompatible database version
+2015-05-14 20:17:27.790|GraphPool[INFO] Closed /tmp/test.gdb
+2015-05-14 20:17:27.790|GraphPool[WARNING] Removed /tmp/test.gdb.tmp
+2015-05-14 20:18:13.764|SPARKSEE[INFO] ** START ** 2015-05-14 20:18:13.764 Software version: 5.1.0
+2015-05-14 20:18:13.764|SPARKSEE[INFO] No license code
+2015-05-14 20:18:13.765|GraphPool[SEVERE] Incompatible database version
+2015-05-14 20:18:13.966|GraphPool[INFO] Closed /tmp/test.gdb
+2015-05-14 20:18:13.967|GraphPool[WARNING] Removed /tmp/test.gdb.tmp
+2015-05-14 20:19:15.114|SPARKSEE[INFO] ** START ** 2015-05-14 20:19:15.114 Software version: 5.1.0
+2015-05-14 20:19:15.114|SPARKSEE[INFO] No license code
+2015-05-14 20:19:15.115|GraphPool[SEVERE] Incompatible database version
+2015-05-14 20:19:15.315|GraphPool[INFO] Closed /tmp/test.gdb
+2015-05-14 20:19:15.315|GraphPool[WARNING] Removed /tmp/test.gdb.tmp
+2015-05-14 20:19:42.444|SPARKSEE[INFO] ** START ** 2015-05-14 20:19:42.444 Software version: 5.1.0
+2015-05-14 20:19:42.445|SPARKSEE[INFO] No license code
+2015-05-14 20:19:42.487|SPARKSEE[INFO] GraphPool 'teste.gdb' has been created at /tmp/teste.gdb
+2015-05-14 22:13:02.886|SPARKSEE[INFO] ** START ** 2015-05-14 22:13:02.868 Software version: 5.1.0
+2015-05-14 22:13:02.887|SPARKSEE[INFO] No license code
+2015-05-14 22:13:02.973|SPARKSEE[INFO] GraphPool 'teste.gdb' has been created at /tmp/teste.gdb
+2015-05-14 22:34:54.575|SPARKSEE[INFO] ** START ** 2015-05-14 22:34:54.493 Software version: 5.1.0
+2015-05-14 22:34:54.601|SPARKSEE[INFO] No license code
+2015-05-14 22:34:54.664|SPARKSEE[INFO] GraphPool 'teste1.gdb' has been created at /tmp/teste1.gdb
+2015-05-14 22:36:44.389|SPARKSEE[INFO] ** START ** 2015-05-14 22:36:44.389 Software version: 5.1.0
+2015-05-14 22:36:44.390|SPARKSEE[INFO] No license code
+2015-05-14 22:36:44.463|SPARKSEE[INFO] GraphPool 'teste2.gdb' has been created at /tmp/teste2.gdb
+2015-05-14 23:16:32.934|SPARKSEE[INFO] ** START ** 2015-05-14 23:16:32.934 Software version: 5.1.0
+2015-05-14 23:16:32.934|SPARKSEE[INFO] No license code
+2015-05-14 23:16:32.956|GraphPool[SEVERE] Incompatible database version
+2015-05-14 23:16:33.356|GraphPool[INFO] Closed /tmp/teste2.gdb
+2015-05-14 23:16:33.357|GraphPool[WARNING] Removed /tmp/teste2.gdb.tmp
+2015-05-14 23:16:54.663|SPARKSEE[INFO] ** START ** 2015-05-14 23:16:54.663 Software version: 5.1.0
+2015-05-14 23:16:54.664|SPARKSEE[INFO] No license code
+2015-05-14 23:16:55.119|SPARKSEE[INFO] GraphPool 'teste3.gdb' has been created at /tmp/teste3.gdb
+2015-05-14 23:17:43.829|GraphPool[INFO] Closed /tmp/teste3.gdb
+2015-05-14 23:17:43.830|GraphPool[WARNING] Removed /tmp/teste3.gdb.tmp
+2015-05-14 23:17:43.831|SPARKSEE[INFO] ** SHUTDOWN ** 2015-05-14 23:17:43.831
+2015-05-15 21:35:27.815|SPARKSEE[INFO] ** START ** 2015-05-15 21:35:27.802 Software version: 5.1.0
+2015-05-15 21:35:27.841|SPARKSEE[INFO] No license code
+2015-05-15 21:35:27.892|SPARKSEE[INFO] GraphPool 'teste3.gdb' has been created at /tmp/teste3.gdb
+2015-05-15 21:36:40.353|GraphPool[INFO] Closed /tmp/teste3.gdb
+2015-05-15 21:36:40.354|GraphPool[WARNING] Removed /tmp/teste3.gdb.tmp
+2015-05-15 21:36:40.354|SPARKSEE[INFO] ** SHUTDOWN ** 2015-05-15 21:36:40.354
+2015-05-18 18:18:16.614|SPARKSEE[INFO] ** START ** 2015-05-18 18:18:16.614 Software version: 5.1.0
+2015-05-18 18:18:16.614|SPARKSEE[INFO] No license code
+2015-05-18 18:18:16.807|SPARKSEE[INFO] GraphPool 'teste3.gdb' has been created at /tmp/teste3.gdb
+2015-05-18 18:20:31.448|SPARKSEE[INFO] ** START ** 2015-05-18 18:20:31.448 Software version: 5.1.0
+2015-05-18 18:20:31.448|SPARKSEE[INFO] No license code
+2015-05-18 18:20:31.449|GraphPool[SEVERE] Incompatible database version
+2015-05-18 18:20:32.300|GraphPool[INFO] Closed /tmp/teste3.gdb
+2015-05-18 18:20:32.301|GraphPool[WARNING] Removed /tmp/teste3.gdb.tmp
+2015-05-18 18:20:45.411|SPARKSEE[INFO] ** START ** 2015-05-18 18:20:45.411 Software version: 5.1.0
+2015-05-18 18:20:45.412|SPARKSEE[INFO] No license code
+2015-05-18 18:20:45.464|SPARKSEE[INFO] GraphPool 'teste4.gdb' has been created at /tmp/teste4.gdb
+2015-05-18 18:21:21.725|GraphPool[INFO] Closed /tmp/teste4.gdb
+2015-05-18 18:21:21.726|GraphPool[WARNING] Removed /tmp/teste4.gdb.tmp
+2015-05-18 18:21:21.726|SPARKSEE[INFO] ** SHUTDOWN ** 2015-05-18 18:21:21.726
+2015-05-18 18:49:55.745|SPARKSEE[INFO] ** START ** 2015-05-18 18:49:55.745 Software version: 5.1.0
+2015-05-18 18:49:55.745|SPARKSEE[INFO] No license code
+2015-05-18 18:49:56.061|SPARKSEE[INFO] GraphPool 'teste5.gdb' has been created at /tmp/teste5.gdb
+2015-05-18 18:57:37.635|SPARKSEE[INFO] ** START ** 2015-05-18 18:57:37.635 Software version: 5.1.0
+2015-05-18 18:57:37.635|SPARKSEE[INFO] No license code
+2015-05-18 18:57:37.685|SPARKSEE[INFO] GraphPool 'teste6.gdb' has been created at /tmp/teste6.gdb
+2015-05-18 18:59:38.601|GraphPool[INFO] Closed /tmp/teste6.gdb
+2015-05-18 18:59:38.601|GraphPool[WARNING] Removed /tmp/teste6.gdb.tmp
+2015-05-18 18:59:38.601|SPARKSEE[INFO] ** SHUTDOWN ** 2015-05-18 18:59:38.601
+2015-05-18 19:08:23.465|SPARKSEE[INFO] ** START ** 2015-05-18 19:08:23.464 Software version: 5.1.0
+2015-05-18 19:08:23.465|SPARKSEE[INFO] No license code
+2015-05-18 19:08:23.638|SPARKSEE[INFO] GraphPool 'teste6.gdb' has been opened at /tmp/teste6.gdb
+2015-05-18 19:08:49.695|SPARKSEE[INFO] ** START ** 2015-05-18 19:08:49.695 Software version: 5.1.0
+2015-05-18 19:08:49.696|SPARKSEE[INFO] No license code
+2015-05-18 19:08:49.888|SPARKSEE[INFO] GraphPool 'teste7.gdb' has been created at /tmp/teste7.gdb
+2015-05-18 19:10:53.849|GraphPool[INFO] Closed /tmp/teste7.gdb
+2015-05-18 19:10:53.849|GraphPool[WARNING] Removed /tmp/teste7.gdb.tmp
+2015-05-18 19:10:53.849|SPARKSEE[INFO] ** SHUTDOWN ** 2015-05-18 19:10:53.849
